@@ -1,4 +1,4 @@
-# LAB 01 - seattle-code-python-401d18
+# LAB 02 - seattle-code-python-401d18
 
 ## Project: Modules and Testing
 
@@ -16,11 +16,9 @@ pytest
 
 ### How to initialize/run application
 
-    activate venv
     For MAC/Linux
     ---
     source .venv/bin/activate
     $ pip install -r requirements.txt
     $ pytest
     
-

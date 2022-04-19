@@ -1,6 +1,6 @@
 import pytest
 
-from math_series.series import fibonacci, lucas
+from math_series.series import fibonacci, lucas, sum_series
 
 def test_fibonacci_zero():
     actual = fibonacci(0)
@@ -60,4 +60,19 @@ def test_lucas_four():
 def test_lucas_five():
     actual = lucas(5)
     expected = 11
+    assert actual == expected
+
+def sum_series_test_one():
+    actual = sum_series(1)
+    expected = 1
+    assert actual == expected
+
+def sum_series_test_twoarg():
+    actual = sum_series(3, 2)
+    expected = 3
+    assert actual == expected
+
+def sum_series_test_threearg():
+    actual = sum_series(5, 3, 7)
+    expected = 44
     assert actual == expected
