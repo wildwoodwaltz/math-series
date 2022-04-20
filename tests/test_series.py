@@ -62,17 +62,27 @@ def test_lucas_five():
     expected = 11
     assert actual == expected
 
-def sum_series_test_one():
+def test_sum_series_test_one():
     actual = sum_series(1)
     expected = 1
     assert actual == expected
 
-def sum_series_test_twoarg():
+def test_sum_series_test_twoarg():
     actual = sum_series(3, 2)
-    expected = 3
+    expected = 4
     assert actual == expected
 
-def sum_series_test_threearg():
+def test_sum_series_lucas_test():
+    actual = sum_series(5,2,1)
+    expected = 11
+    assert actual == expected
+
+def test_sum_series_fib_test():
+    actual = sum_series(5,0,1)
+    expected = 5
+    assert actual == expected
+
+def test_sum_series_test_threearg():
     actual = sum_series(5, 3, 7)
     expected = 44
     assert actual == expected

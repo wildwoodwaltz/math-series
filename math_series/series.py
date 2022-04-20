@@ -31,9 +31,9 @@ def sum_series(n, x=0, y=1):
     Then it returns the number at the position n if each number was added to the previous number given two starting numbers
     If no x or y is givin it will return the fibonacci sequence.
     '''
-    if n == 1:
+    if n == 0:
         return x
-    elif n == 2:
+    elif n == 1:
         return y
     else:
-        return(sum_series(n-1)+ sum_series(n-2))
+        return sum_series(n-1, x, y) + sum_series(n-2, x ,y)
