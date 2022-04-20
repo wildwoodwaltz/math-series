@@ -10,7 +10,11 @@ def fibonacci(n):
         return(fibonacci(n-1)+ fibonacci(n-2))
 
 def lucas(n):
-    
+    '''
+    Much like the fibonacci sequence where first value is added to second value to return a third value.
+    Lucas sequence instead starts with [2, 1] instead of [0,1] that the fibonacci sequence does.
+    This function will return any numbe in the lucas sequence at n. 
+    '''
     if n == 0:
         return 2
     elif n == 1:
