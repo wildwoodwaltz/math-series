@@ -6,6 +6,7 @@
 
 ### Links and Resources
 
+Dwight Lindquist - Thanks for pointing out the error in my testing code. 
 [Fibonacci Equation](https://en.wikipedia.org/wiki/Fibonacci_number)
 
 ### Setup
